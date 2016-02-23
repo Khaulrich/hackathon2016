@@ -12,9 +12,12 @@
             }
 
 			#header {
-				float: left;
-				min-height:100px;
-				width: 100%;
+				
+				height: 90px;
+				width: 80%;
+				display: block;
+				margin-left: auto;
+  				margin-right: auto;
 				}
 				
             .container {
@@ -23,33 +26,50 @@
   				margin-right: auto;               
 				display: block;
             	}
-
+			
+			.logo {
+				height: 80px;
+				width: 80px;
+				
+				margin-right: 10px;
+				margin-top: 10px;
+				background-color:#0E6010;
+				text-align:center;
+				color: #FFFFFF;		
+				}
+				
 			.map {
 				width: 100%;
 				height: 200px;
-				background-color: #AB2427;
+				background-color: #1383aF; /*test */
+				color: #FFFFFF;
 				
 				}
 				
 			.video {
-				width: 60%;
+				width: 59%;
 				height: 200px;
-				background-color: #249E5B;
+				background-color: #215C27;
 				float:left;
+				color: #FFFFFF;
 				}	
 				
 			.signup {
 				width: 40%;
 				height: 200px;
-				background-color: #49389C;
-				float:left;
+				background-color: #0D5519;
+				float:right;
+				color: #FFFFFF;
 				}
 			
 			.news {
 				width: 100%;
+				margin-top: 
 				height: 200px;
-				background-color: #87188E;
+				background-color: #07430C;
 				float:left;
+				
+				color: #FFFFFF;
 				}	
 
 			footer {
@@ -66,7 +86,9 @@
             .title {
                 font-size: 96px;
             }
+			
 			nav {
 				display:inline-block;
 				float:right;
+				margin-top: -20px;
 				}
